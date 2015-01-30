@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:shrinkColumns="1" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tabTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical|center_horizontal|center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/titTabPersona"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombrePer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtApellido1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ap1Per"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtApellido2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ap2Per"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="15dp" >
+
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/idHint"
+            android:inputType="text" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nombreHint"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/editApe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/apPaterno"
+            android:inputType="text|textCapWords"/>
+
+        <EditText
+            android:id="@+id/editApe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/apMaterno"
+            android:inputType="textCapWords" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp" >
+
+        <TextView
+            android:id="@+id/txtFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fechaNacPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtFechaDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/fechaDefPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/sexoPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtEtnia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/codRaza"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="80dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editFecha"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/dateHint"
+            android:inputType="date"  />
+
+        <ImageButton
+            android:id="@+id/btnFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image1"
+            android:src="@android:drawable/ic_menu_day" />
+
+        <EditText
+            android:id="@+id/editFechaDef"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:ems="10"
+            android:hint="@string/dateHint"
+            android:inputType="date" />
+
+        <ImageButton
+            android:id="@+id/btnFechaDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image2"
+            android:src="@android:drawable/ic_menu_day" />
+
+        <Spinner
+            android:id="@+id/spinnerSexo"
+            android:layout_width="220dp"
+            android:layout_height="50dp" />
+
+        <Spinner
+            android:id="@+id/spinnerGrupEtn"
+            android:layout_width="220dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp" >
+
+        <TextView
+            android:id="@+id/txtLugNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/codNacion"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtEscol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/codEscPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtJefeF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/jefeFamilia"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtRolFam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rolPer"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="80dp" >
+
+        <!--         <Spinner
+                    android:id="@+id/spinnerLugNac"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp" /> -->
+
+        <AutoCompleteTextView
+            android:id="@+id/editNacion"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/paisHint"/>
+
+        <Spinner
+            android:id="@+id/spinnerEsc"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/editCodJF"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="@string/idHint" />
+
+        <Spinner
+            android:id="@+id/spinnerRolFam"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp">
+
+        <TextView
+            android:id="@+id/txtPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pesoPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtTalla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/tallaPer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtEstNut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/codEstadoNutri"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/imc"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="80dp" >
+
+        <EditText
+            android:id="@+id/editPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pesoHint"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTalla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint="@string/tallaHint"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editEstNut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint="@string/estNutHint" />
+
+        <EditText
+            android:id="@+id/editIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint="@string/imcHint"
+            android:inputType="numberDecimal" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp">
+
+        <TextView
+            android:id="@+id/txtEstCiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/codEstadoCiv"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtOcup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/codOcup"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtCondLab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/codCondLab"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAseg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/asegPer"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp">
+
+        <Spinner
+            android:id="@+id/spinnerEstCiv"
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <Spinner
+            android:id="@+id/spinnerOcup"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCondLab"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <Spinner
+            android:id="@+id/spinnerAseg"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableButtons"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="80dp" >
+
+
+        <Button
+            android:id="@+id/GrupoPersonasButton"
+            style="@style/AppTheme"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/searchButton" />
+
+        <Button
+            style="@style/AppTheme"
+            android:id="@+id/updateButton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/updateButton" />
+        <Button
+            style="@style/AppTheme"
+            android:id="@+id/insertButton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/insertButton" />
+
+
+    </TableRow>
+
+</TableLayout>

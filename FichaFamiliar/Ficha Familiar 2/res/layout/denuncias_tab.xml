@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="800dp"
+    android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtTituloHechos"
+                android:layout_width="1280dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/titTabDenuncia"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <TableRow android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="20dip"
+                android:text="@string/den_id_name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:hint="@string/den_id_name"
+                android:inputType="number"
+                android:textColorHint="@color/red"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10sp"
+                android:text="@string/den_desc_name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/den_desc_name"
+                android:inputType="textMultiLine"
+                android:textColorHint="@color/red"
+                android:textSize="18sp" >
+            </EditText>
+
+        </TableRow>
+
+
+        <TableRow android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10sp"
+                android:text="@string/den_denunciante_name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/denunciante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/den_denunciante_name"
+                android:inputType="text"
+                android:textColorHint="@color/red"
+                android:textSize="18sp" >
+
+            </EditText>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10sp"
+                android:text="@string/den_tel_denunciante_name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/telDenunciante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/den_tel_denunciante_name"
+                android:inputType="phone"
+                android:textColorHint="@color/red"
+                android:textSize="18sp" >
+
+            </EditText>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10sp"
+                android:text="@string/den_responsable_name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/asignada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/den_responsable_name"
+                android:inputType="text"
+                android:textColorHint="@color/red"
+                android:textSize="18sp" >
+
+            </EditText>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10sp"
+                    android:text="@string/den_longitud_name"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/longitud"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="@string/den_longitud_name"
+                    android:inputType="text"
+                    android:textColorHint="@color/red"
+                    android:textSize="18sp" >
+
+                </EditText>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="10sp"
+                        android:text="@string/den_latitud_name"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:id="@+id/latitud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:hint="@string/den_latitud_name"
+                        android:inputType="text"
+                        android:textColorHint="@color/red"
+                        android:textSize="18sp"
+                        android:layout_weight="6.29">
+
+                    </EditText>
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+    <TableRow android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="10sp"
+            android:text="@string/den_fecha_name"
+            android:textSize="30sp" />
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker"
+            android:layout_column="1"
+            android:calendarViewShown="false" />
+
+    </TableRow>
+
+
+    <TableRow android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            android:layout_marginLeft="30dp">
+
+            <Button
+                android:id="@+id/insertarDenucia"
+                style="@style/AppTheme"
+                android:text="@string/insertButton"
+                android:layout_gravity="center_vertical"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/actualizarDenuncia"
+                style="@style/AppTheme"
+                android:text="@string/actDatos"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/obtenerGPS"
+                style="@style/AppTheme"
+                android:text="@string/GPS"
+                android:layout_gravity="center_vertical"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+</TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/mapa"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="459dp"
+            android:layout_height="550dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="70dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Satelite"
+                    android:id="@+id/satelite" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    android:id="@+id/normal" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Híbrido"
+                    android:id="@+id/hibrido" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terreno"
+                    android:id="@+id/terreno" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

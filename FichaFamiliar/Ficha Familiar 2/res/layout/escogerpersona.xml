@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite el código vivienda o seleccione uno"
+        android:id="@+id/cod"
+        android:autoText="true"
+        android:textSize="35sp"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:id="@+id/cod_viv"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/codigos"
+        android:gravity="center" />
+
+</LinearLayout>

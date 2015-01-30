@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTituloTab"
+            android:layout_width="1280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:text="@string/titTabSocioec"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+    </LinearLayout>
+    
+    <TableRow
+        android:id="@+id/tableTitles"
+        android:layout_marginLeft="180dp" >
+
+        <TextView
+            android:id="@+id/txtCondSoc"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:layout_marginTop="100dp"
+            android:clickable="false"
+            android:text="@string/tipoCondSoc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtRefrig"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:layout_marginTop="100dp"
+            android:clickable="false"
+            android:text="@string/txtRefrig"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtRadio"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/txtRadio"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTelefono"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtTelefono"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableOptions"
+        android:layout_marginLeft="180dp" >
+
+        <Spinner
+            android:id="@+id/spinnerCondSoc"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+        <Spinner
+            android:id="@+id/spinnerRefrig"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+        <Spinner
+            android:id="@+id/spinnerRadio"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTelefono"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+        
+    </TableRow>
+    
+        <TableRow
+            android:id="@+id/tableTitles1"
+            android:layout_marginLeft="180dp" >
+
+        <TextView
+            android:id="@+id/txtTV"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:clickable="false"
+            android:text="@string/txtTV"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+        
+        <TextView
+            android:id="@+id/txtLavadora"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:text="@string/txtLavadora"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+        
+
+        <TextView
+            android:id="@+id/txtPC"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:clickable="false"
+            android:text="@string/txtPC"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+              
+        <TextView
+            android:id="@+id/txtInternet"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:text="@string/txtInternet"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+       
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableOptions1"
+        android:layout_marginLeft="180dp" >
+
+        <Spinner
+            android:id="@+id/spinnerTV"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+        
+        <Spinner
+            android:id="@+id/spinnerLavadora"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+        <Spinner
+            android:id="@+id/spinnerPC"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+        
+        <Spinner
+            android:id="@+id/spinnerInternet"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableButtons"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/updateButton"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/updateButton" />
+    </TableRow>
+ 
+</TableLayout> 

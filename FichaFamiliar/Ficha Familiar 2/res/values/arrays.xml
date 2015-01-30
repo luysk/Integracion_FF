@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="estados">
+        <item>B - BUENO</item>
+        <item>R - REGULAR</item>
+        <item>M - MALO</item>
+    </string-array>
+    <string-array name="seleccion">
+        <item>S Sí</item>
+        <item>N No</item>
+    </string-array>
+    <string-array name="materiales">
+        <item>T Tierra/Tejas</item>
+        <item>T Cemento/Block</item>
+        <item>K Cartón</item>
+        <item>S Sintético/Plástico</item>
+        <item>M Madera</item>
+        <item># Mosaico/Terrazo</item>
+        <item>P Paja</item>
+        <item>Z Zinc</item>
+    </string-array>
+    <string-array name="ftesAgua">
+        <item>L  Lluvia</item>
+        <item>Q  Quebrada</item>
+        <item>PB Pozo con bomba</item>
+        <item>R  Río</item>
+        <item>Q  Quebrada</item>
+        <item>P  Pozo</item>
+        <item>C  Cañería</item>
+    </string-array>
+    <string-array name="dispExcretas">
+        <item>R Río</item>
+        <item>C Campo</item>
+        <item>TS Tanque séptico</item>
+        <item>M Mar</item>
+        <item>L Letrina</item>
+        <item>CL Cloaca</item>
+    </string-array>
+    <string-array name="elimBasura">
+        <item>R Río</item>
+        <item>C Campo></item>
+        <item>Q Quemada</item>
+        <item>RP Recolección Pública</item>
+        <item>M Mar</item>
+        <item>E Enterrada</item>
+        <item>Q Otros</item>
+        <item>RPr Recolección Privada</item>
+    </string-array>
+    <string-array name="tenencia">
+        <item>Propia</item>
+        <item>Alquilada</item>
+        <item>Prestada</item>
+    </string-array>
+    <string-array name="energia">
+        <item>E Electricidad</item>
+        <item>Q Querosene / Canfin</item>
+        <item>B Bateria</item>
+        <item>G Gas</item>
+        <item>L Leña</item>
+    </string-array>
+    <string-array name="condSoc">
+        <item>PE Pobreza extrema</item>
+        <item>P  Pobreza</item>
+        <item>V  Vulnerabilidad</item>
+        <item>E  Estable</item>
+    </string-array>
+    <string-array name="banio">
+        <item>I Individual</item>
+        <item>C Colectivo</item>
+    </string-array>
+    <string-array name="cocina">
+        <item>I Interna</item>
+        <item>E Externa</item>
+    </string-array>
+    <string-array name="riesgo">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="estNutri">
+        <item>Delgado</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+    </string-array>
+    <string-array name="numeric">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="rolFamiliar">
+        <item>Cónyuge</item>
+        <item>Hijo/a</item>
+        <item>Hermano/a</item>
+        <item>Tío/a</item>
+        <item>Padre/Madre</item>
+        <item>Abuelo/a</item>
+        <item>Primo/a</item>
+        <item>Desconocido</item>
+    </string-array>
+    <string-array name="condLaboral">
+        <item>P Permanente</item>
+        <item>O Ocasional</item>
+        <item>D Desempleado</item>
+        <item>Pen Pensionado</item>
+    </string-array>
+    <string-array name="sexo">
+        <item>M Masculino</item>
+        <item>F Femenino</item>
+    </string-array>
+    <string-array name="etnia">
+        <item>B Blanca</item>
+        <item>I Indígena</item>
+        <item>N Negra</item>
+        <item>C China</item>
+        <item>O Otra</item>
+    </string-array>
+    <string-array name="estadocivil">
+        <item>S Soltero</item>
+        <item>C Casado</item>
+        <item>V Viudo</item>
+        <item>UL Unión Libre</item>
+        <item>SH Separado de hecho</item>
+    </string-array>
+    <string-array name="escolaridad">
+        <item>P Primario</item>
+        <item>S Secundario</item>
+        <item>N Universitario</item>
+        <item>C Tecnológico</item>
+        <item>A Analfabeta</item>
+        <item>N Ninguno</item>
+    </string-array>
+    <string-array name="violIntrafamiliar">
+        <item>N  Ninguna</item>
+        <item>AF Agresión Física</item>
+        <item>AE Agresión Emocional</item>
+        <item>AS Agresión Sexual</item>
+        <item>AB Abandono</item>
+    </string-array>
+    <string-array name="metodoPlanificacion">
+        <item>DIU Dispositivo Intrauterino</item>
+        <item>GO Gestágeno Oral</item>
+        <item>PRE Preservativo Masc/Fem</item>
+        <item>QX Quirúrgico</item>
+        <item>IMP Implante</item>
+        <item>INY Inyectable</item>
+        <item>NAT Natural</item>
+        <item>OTR Otro</item>
+    </string-array>
+
+
+    <string-array name="resultPap">
+        <item>N Normal</item>
+        <item>L Leve</item>
+        <item>M Moderado</item>
+        <item>S Severo</item>
+    </string-array>
+    <string-array name="condSalud">
+        <item>B Buena</item>
+        <item>R Regular</item>
+        <item>M Mala</item>
+    </string-array>
+
+    <string-array name="vacunasRecibidas">
+        <item>0 - NINGUNO</item>
+        <item>1 - BCG</item>
+        <item>HB ADICIONAL</item>
+        <item>H.B. PRIMERA DOSIS</item>
+        <item>H.B. SEGUNDA DOSIS</item>
+        <item>H.B. TERCERA DOSIS</item>
+        <item>PENTAVALENTE IPV I DOSIS</item>
+        <item>PENTAVALENTE IPV II DOSIS</item>
+        <item>PENTAVALENTE IPV III DOSIS</item>
+        <item>PENTAVALENTE IPV REFUERZO</item>
+        <item>TETRAVALENTE</item>
+        <item>VOP PRIMERA DOSIS</item>
+        <item>VOP SEGUNDA DOSIS</item>
+        <item>VOP TERCERA DOSIS</item>
+        <item>VOP REFUERZO</item>
+        <item>VOP ADICIONAL</item>
+        <item>POLIO IM PRIMERA DOSIS</item>
+        <item>POLIO IM SEGUNDA DOSIS</item>
+        <item>POLIO IM TERCERA DOSIS</item>
+        <item>POLIO IM REFUERZO 1</item>
+        <item>POLIO IM REFUERZO 2</item>
+        <item>DPT PRIMERA DOSIS</item>
+        <item>DPT SEGUNDA DOSIS</item>
+        <item>DPT TERCERA DOSIS</item>
+        <item>DPT REFUERZO 1</item>
+        <item>DPT REFUERZO 2</item>
+        <item>TD PRIMER REFUERZO - CADA 10 AÑOS</item>
+        <item>DPT ADICIONAL</item>
+        <item>DtaP PRIMERA DOSIS</item>
+        <item>DtaP SEGUNDA DOSIS</item>
+        <item>DTaP TERCERA DOSIS</item>
+        <item>DTaP REFUERZO 1</item>
+        <item>DTaP REFUERZO 2</item>
+        <item>TDAP ACELULAR ADULTOS</item>
+        <item>HIB PRIMERA DOSIS</item>
+        <item>HIB SEGUNDA DOSIS</item>
+        <item>HIB TERCERA DOSIS</item>
+        <item>HIB REFUERZO</item>
+        <item>SRP PRIMERA DOSIS</item>
+        <item>SRP SEGUNDA DOSIS</item>
+        <item>SRP ADICIONAL</item>
+        <item>SR CAMPAÑA</item>
+        <item>VARICELA PRIMERA DOSIS</item>
+        <item>VARICELA SEGUNDA DOSIS</item>
+        <item>NEUMOCOCO PRIMERA DOSIS</item>
+        <item>NEUMOCOCO SEGUNDA DOSIS</item>
+        <item>NEUMOCOCO TERCERA DOSIS</item>
+        <item>NEUMOCOCO REFUERZO</item>
+        <item>ROTAVIRUS PRIMERA DOSIS</item>
+        <item>ROTAVIRUS SEGUNDA DOSIS</item>
+        <item>Td. I DOSIS EMBARAZADA</item>
+        <item>Td II DOSIS EMBARAZADA</item>
+        <item>Td REFUERZO EMBARAZADA</item>
+        <item>Td. ADULTO PRIMERA DOSIS</item>
+        <item>Td ADULTO SEGUNDA DOSIS</item>
+        <item>Td ADULTO REFUERZO</item>
+        <item>HB ADULTOS PRIMERA DOSIS</item>
+        <item>HB ADULTOS SEGUNDA DOSIS</item>
+        <item>HB ADULTOS TERCERA DOSIS</item>
+        <item>INFLUENZA NIÑO I DOSIS AÑO</item>
+        <item>INFLUENZA NIÑO II DOSIS AÑO</item>
+        <item>INFLUENZA NIÑO III DOSIS AÑO</item>
+        <item>INFLUENZA ADULTO MAYOR</item>
+        <item>INFLUENZA TRABAJADOR SALUD</item>
+        <item>INFLUENZA OTROS GRUP. RIESGO</item>
+        <item>ANTIRRABICA DOSIS I</item>
+        <item>ANTIRRABICA DOSIS II</item>
+        <item>ANTIRRABICA DOSIS III</item>
+        <item>ANTIRRABICA DOSIS IV</item>
+        <item>ANTIRRABICA DOSIS V</item>
+        <item>NEUMOCOCO 23 VALENTE I DOSIS</item>
+        <item>NEUMOCOCO 23 VALENTE II DOSIS</item>
+    </string-array>
+    <string-array name= "encabTablaVisitas">
+        <item>Cond. Salud</item>
+        <item>Fecha</item>
+        <item>Motivo</item>
+        <item>Acción realizada</item>
+        
+        
+        </string-array>
+
+</resources>

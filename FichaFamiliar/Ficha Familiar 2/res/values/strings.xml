@@ -1,0 +1,189 @@
+<resources>
+
+    <string name="app_name">Ficha Familiar</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="title_activity_tab">Ficha Familiar</string>
+    <string name="option0">Exportar datos</string>
+    <string name="option1">Importar datos</string>
+    <string name="option2">Limpiar Ficha Familiar</string>
+    <string name="option3">Enviar/Recibir</string>
+    <string name="nombreProv">Provincia</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="relojDigital">reloj digital</string>
+    <string name="nombrePer">Nombre</string>
+    <string name="idPer">Identificación</string>
+    <string name="ap1Per">Apellido 1</string>
+    <string name="ap2Per">Apellido 2</string>
+    <string name="fechaNacPer">Fecha Nacimiento</string>
+    <string name="sexoPer">Sexo</string>
+    <string name="pesoPer">Peso Actual</string>
+    <string name="tallaPer" translatable="false">Talla Actual</string>
+    <string name="imc" translatable="false">IMC</string>
+    <string name="fechaDefPer">Fecha Defunción</string>
+    <string name="jefeFamilia">Jefe de Familia</string>
+    <string name="asegPer">Asegurado</string>
+    <string name="codAreaSalud">Área de Salud</string>
+    <string name="codEscPer">Escolaridad</string>
+    <string name="codEstadoCiv">Estado Civil</string>
+    <string name="codEstadoNutri">Est. Nutricional</string>
+    <string name="codEBAIS">EBAIS</string>
+    <string name="codProvincia">Provincia</string>
+    <string name="codCanton">Cantón</string>
+    <string name="codDistrito">Distrito</string>
+    <string name="codDireccion">Barrio</string>
+    <string name="codViv">Cod Vivienda</string>
+    <string name="codNacion">Nació en</string>
+    <string name="codOcup">Ocupación</string>
+    <string name="codEtnia">Etnia</string>
+    <string name="codCondLab">Cond. Laboral</string>
+    <string name="butInsertarPer">Insertar Datos</string>
+    <string name="doble_clic_fecha">Haga doble click</string>
+    <string name="ult_anio_esc">Último año cursado</string>
+    <string name="butConsultarPer">Consultar ID</string>
+    <string name="consecPer">Consecutivo</string>
+    <string name="butActPer">Actualizar Datos</string>
+    <string name="but_volver">Volver</string>
+    <string name="butBorrarPer">Borrar Datos</string>
+    <string name="butConsultPerNombre">Consultar Nombre</string>
+    <string name="butCondSalud">Datos Condición Salud</string>
+    <string name="butCompDatos">Completar datos</string>
+    <string name="butNuevaCapt">Nueva Captura</string>
+    <string name="codRaza">Grupo étnico</string>
+    <string name="rolPer">Rol Familiar</string>
+    <string name="consecJefeFamilia">Cod. Jefe Familia</string>
+    <string name="insertButton">Insertar</string>
+    <string name="cancelButton">Cancelar</string>
+    <string name="updateButton">Actualizar</string>
+    <string name="searchButton">Buscar</string>
+    <string name="consViv">Consultar Vivienda</string>
+    <string name="datosPersona">Datos de Persona</string>
+    <string name="datosVivienda">Datos de Vivienda</string>
+    <string name="datosVisita">Datos de Visita</string>
+    <string name="exportarDatos">Exportar Datos</string>
+    <string name="horaActual">horaAct</string>
+    <string name="insertarDatos">Insertar Datos</string>
+    <string name="actDatos">Actualizar Datos</string>
+    <string name="btInsVisita">Insertar Visita</string>
+    <string name="btConsVisita">Consultar Visita</string>
+    <string name="btActVisita">Actualizar Visita</string>
+    <string name="btBorrarVisita">Borrar Visita</string>
+    <string name="btSalir">Salir</string>
+    <string name="titTabUbicacion">Ubicación del Núcleo Familiar</string>
+    <string name="titTabDenuncia">Denuncias Comunales</string>
+    <string name="titTabPersona">Datos básicos de una Persona</string>
+    <string name="titTabVivienda">Datos básicos sobre Vivienda</string>
+    <string name="titTabHechosF">Condición de Salud Femenina</string>
+    <string name="titTabHechosM">Condición de Salud Masculina</string>
+    <string name="titTabSocioec">Condición Socioeconómica</string>
+    <string name="titTabFamilia">Datos sobre Núcleo Familiar</string>
+    <string name="titTabMapa">Mapa sobre denuncias</string>
+    <string name="relleno">Escriba aquí</string>
+    <string name="codTenencia">Tenencia</string>
+    <string name="fechaVis">Fecha de Visita</string>
+    <string name="codEnerg">Energía</string>
+    <string name="M2">M2</string>
+    <string name="numApos">N° Aposentos</string>
+    <string name="numDor">N° Dormitorios</string>
+    <string name="tipoCoc">Cocina</string>
+    <string name="condCoc">Cond. Cocina</string>
+    <string name="energCoc">Energ. Cocina</string>
+    <string name="tipoBan">Baño</string>
+    <string name="condBan">Cond. Baño</string>
+    <string name="tipoPiso">Piso</string>
+    <string name="condPiso">Cond. Piso</string>
+    <string name="tipoPared">Pared</string>
+    <string name="condPared">Cond. Pared</string>
+    <string name="tipoTec">Techo</string>
+    <string name="condTec">Cond Techo</string>
+    <string name="ventil">Ventilación</string>
+    <string name="iluminac">Iluminación</string>
+    <string name="ftesAguas" translatable="false">Aguas</string>
+    <string name="calAguas" translatable="false">Calidad Aguas</string>
+    <string name="excretas">Excretas</string>
+    <string name="basura">Basura</string>
+    <string name="animales">Animales</string>
+    <string name="riesgo">Riesgo</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="hintObservaciones">Escriba sus observaciones</string>
+    <string name="hagaClick">Haga Click</string>
+    <string name="caption1">Ubicación</string>
+    <string name="caption2">Vivienda</string>
+    <string name="caption3">Familia</string>
+    <string name="caption4">Cond. Socioec.</string>
+    <string name="caption5">Personas</string>
+    <string name="caption6">Hechos</string>
+    <string name="caption7">Denuncia</string>
+    <string name="caption8">Mapa</string>
+    <string name="tipoCondSoc">Tipo Condición</string>
+    <string name="txtRefrig">Refrigeradora</string>
+    <string name="txtRadio">Radio</string>
+    <string name="txtTelefono">Teléfono</string>
+    <string name="txtTV">Televisión</string>
+    <string name="txtPC">Computadora</string>
+    <string name="txtLavadora">Lavadora</string>
+    <string name="txtInternet">Internet</string>
+    <string name="txtCodPersona">Cod. Persona</string>
+    <string name="txtEspec">Especialista</string>
+    <string name="txtSaludAct">Estado Salud</string>
+    <string name="txtTipoViol">Tipo Violencia</string>
+    <string name="txtFechaPlan">Fecha Planif.</string>
+    <string name="txtTipoPlan">Método Planif.</string>
+    <string name="txtFechaPap">Fecha Papanicolau</string>
+    <string name="txtEstPap">Est. Papanicolau</string>
+    <string name="txtUltRegla">Fecha última regla</string>
+    <string name="txtFechaEmb">Fecha embarazo</string>
+    <string name="txtFechaVac">Fecha vacuna</string>
+    <string name="txtTipoVac">Tipo Vacuna</string>
+    <string name="txtListaVacRec">Lista Vacunas Recibidas</string>
+    <string name="txtButAgVac">Añadir vacuna</string>
+    <string name="txtButElimVac">Eliminar vacuna</string>
+    <string name="titEsqVac">Esquema de vacunas</string>
+    <string name="den_tab_name">Datos para hacer una denuncia</string>
+    <string name="den_id_name"># de denuncia</string>
+    <string name="den_desc_name">Descripción</string>
+    <string name="den_fecha_name">Fecha de la denuncia</string>
+    <string name="den_denunciante_name">Nombre del denunciante</string>
+    <string name="den_tel_denunciante_name">Teléfono del denunciante</string>
+    <string name="den_responsable_name">Responsable de procesar denuncia</string>
+    <string name="den_longitud_name">Longitud</string>
+    <string name="den_latitud_name">Latitud</string>
+    <string name="map_mapa_name">Mapa</string>
+    <string name="ok_btn">OK</string>
+    <string name="reset">Limpiar</string>
+    <string name="direccion">Dirección/Coordenadas</string>
+    <string name="btnVaya">Vaya</string>
+    <string name="txtVersion">Versión</string>
+    <string name="txtEmail">Correo Electrónico</string>
+    <string name="txtRegion">Región de Salud</string>
+    <string name="titConfiguracion">Configuración de Ficha Familiar</string>
+    <string name="txtFechaAct">Fecha Renovación</string>
+    <string name="titTabVisitas">Visita Domicialiaria</string>
+    <string name="txtFecha">Fecha Visita</string>
+    <string name="txtMotivos">Motivos</string>
+    <string name="txtAccion">Acción realizada</string>
+    <string name="txtHistorial">Historial</string>
+    <string name="txtListo">Listo</string>
+    <string name="txtEfectividad">Visita Efectiva</string>
+    <string name="txtSi">Si</string>
+    <string name="txtNo">No</string>
+    <string name="idHint" translatable="false">Cédula-pasaporte</string>
+    <string name="nombreHint" translatable="false">Nombre</string>
+    <string name="apPaterno" translatable="false">Apellido paterno</string>
+    <string name="apMaterno" translatable="false">Apellido materno</string>
+    <string name="estNutHint" translatable="false">Nivel nutricional</string>
+    <string name="dateHint" translatable="false">dd/mm/aa</string>
+    <string name="pesoHint" translatable="false">Kilogramos</string>
+    <string name="tallaHint" translatable="false">Metros</string>
+    <string name="imcHint" translatable="false">Indice Masa Corporal</string>
+    <string name="m2Hint" translatable="false">Area de la vivienda</string>
+    <string name="latitudHint" translatable="false">Paralelo</string>
+    <string name="longitudHint" translatable="false">Meridiano</string>
+    <string name="paisHint" translatable="false">País de Nacimiento</string>
+    <string name="image1" translatable="false">Imagen</string>
+    <string name="image2" translatable="false">Imagen2</string>
+    <string name="txtGrupoPersonas" translatable="false">Seleccionar persona</string>
+    <string name="clearButton" translatable="false">Limpiar</string>
+    <string name="GPS" translatable="false">Obtener Ubicacion</string>
+
+</resources>

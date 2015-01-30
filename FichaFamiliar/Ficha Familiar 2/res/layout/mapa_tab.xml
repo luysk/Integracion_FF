@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:id="@+id/mapa"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="1150dp"
+                android:layout_height="590dp" />
+
+            <RelativeLayout
+                android:id="@+id/btnsBusqueda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/mapa"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/btnBusqCasa"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/busquedacasa"
+                        android:text="buscarCasa" />
+
+                    <Button
+                        android:id="@+id/btnBusqPersona"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
+                        android:layout_alignLeft="@+id/btnBusqCasa"
+                        android:layout_below="@+id/btnBusqCasa"
+                        android:background="@drawable/busquedapersona" />
+
+                    <Button
+                        android:id="@+id/btnBusqDocumento"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
+                        android:layout_alignLeft="@+id/btnBusqPersona"
+                        android:layout_below="@+id/btnBusqPersona"
+                        android:background="@drawable/busquedadoc" />
+
+                    <Button
+                        android:id="@+id/btnBusqCalendario"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
+                        android:layout_alignLeft="@+id/btnBusqDocumento"
+                        android:layout_below="@+id/btnBusqDocumento"
+                        android:background="@drawable/busquedacalend" />
+
+                    <Button
+                        android:id="@+id/btnBusqLink"
+                        android:layout_width="85dp"
+                        android:layout_height="75dp"
+                        android:layout_alignLeft="@+id/btnBusqCalendario"
+                        android:layout_below="@+id/btnBusqCalendario"
+                        android:background="@drawable/link" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Satelite"
+                        android:id="@+id/satelite"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hibrido"
+                        android:text="Híbrido"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Normal"
+                        android:id="@+id/normal"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terreno"
+                        android:id="@+id/terreno"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnCamara"
+                android:layout_width="85dp"
+                android:layout_height="75dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/mapa"
+                android:background="@drawable/camara" />
+
+            <TextView
+                android:id="@+id/etiqLongitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnCamara"
+                android:layout_alignBottom="@+id/btnCamara"
+                android:layout_marginLeft="24dp"
+                android:layout_toRightOf="@+id/btnCamara"
+                android:text="Longitud: "
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editLongitud"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etiqLongitud"
+                android:layout_alignBottom="@+id/etiqLongitud"
+                android:layout_toRightOf="@+id/etiqLongitud"
+                android:background="@color/teal"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/etiqLatitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editLongitud"
+                android:layout_alignBottom="@+id/editLongitud"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/editLongitud"
+                android:text="Latitud: "
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editLatitud"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etiqLatitud"
+                android:layout_alignBottom="@+id/etiqLatitud"
+                android:layout_toRightOf="@+id/etiqLatitud"
+                android:background="@color/teal"
+                android:ems="10" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mostrar denuncias"
+                android:id="@+id/denuncias" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/codigo_Vivienda"
+                android:layout_weight="0.60" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Colocar Marcador"
+                android:id="@+id/colocarMarcador"
+                android:layout_weight="0.25" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

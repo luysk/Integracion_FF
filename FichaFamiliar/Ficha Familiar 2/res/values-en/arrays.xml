@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="estados">
+        <item>B - BUENO</item>
+        <item>R - REGULAR</item>
+        <item>M - MALO</item>
+    </string-array>
+    <string-array name="seleccion">
+        <item>Y Yes</item>
+        <item>N No</item>
+    </string-array>
+    <string-array name="materiales">
+        <item>T Tierra/Tejas</item>
+        <item>T Cemento/Block</item>
+        <item>K Cartón</item>
+        <item>S Sintético/Plástico</item>
+        <item>M Madera</item>
+        <item># Mosaico/Terrazo</item>
+        <item>P Paja</item>
+        <item>Z Zinc</item>
+    </string-array>
+    <string-array name="ftesAgua">
+        <item>L  Lluvia</item>
+        <item>Q  Quebrada</item>
+        <item>PB Pozo con bomba</item>
+        <item>R  River</item>
+        <item>Q  Quebrada</item>
+        <item>P  Pozo</item>
+        <item>C  Cañería</item>
+    </string-array>
+    <string-array name="dispExcretas">
+        <item>R Río</item>
+        <item>C Campo</item>
+        <item>TS Tanque séptico</item>
+        <item>M Mar</item>
+        <item>L Letrina</item>
+        <item>CL Cloaca</item>
+    </string-array>
+    <string-array name="elimBasura">
+        <item>R Río</item>
+        <item>C Campo></item>
+        <item>Q Quemada</item>
+        <item>RP Recolección Pública</item>
+        <item>M Mar</item>
+        <item>E Enterrada</item>
+        <item>Q Otros</item>
+        <item>RPr Recolección Privada</item>
+    </string-array>
+    <string-array name="tenencia">
+        <item>Propia</item>
+        <item>Alquilada</item>
+        <item>Prestada</item>
+    </string-array>
+    <string-array name="energia">
+        <item>E Electricidad</item>
+        <item>Q Querosene / Canfin</item>
+        <item>B Bateria</item>
+        <item>G Gas</item>
+        <item>L Leña</item>
+    </string-array>
+    <string-array name="condSoc">
+        <item>PE Pobreza extrema</item>
+        <item>P  Pobreza</item>
+        <item>V  Vulnerabilidad</item>
+        <item>E  Estable</item>
+    </string-array>
+    <string-array name="banio">
+        <item>I Individual</item>
+        <item>C Colectivo</item>
+    </string-array>
+    <string-array name="cocina">
+        <item>I Interna</item>
+        <item>E Externa</item>
+    </string-array>
+    <string-array name="riesgo">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="estNutri">
+        <item>Delgado</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+    </string-array>
+    <string-array name="numeric">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="rolFamiliar">
+        <item>Cónyuge</item>
+        <item>Hijo/a</item>
+        <item>Hermano/a</item>
+        <item>Tío/a</item>
+        <item>Padre/Madre</item>
+        <item>Abuelo/a</item>
+        <item>Primo/a</item>
+        <item>Desconocido</item>
+    </string-array>
+    <string-array name="condLaboral">
+        <item>P Permanente</item>
+        <item>O Ocasional</item>
+        <item>D Desempleado</item>
+        <item>Pen Pensionado</item>
+    </string-array>
+    <string-array name="sexo">
+        <item>M Masculino</item>
+        <item>F Femenino</item>
+    </string-array>
+    <string-array name="etnia">
+        <item>B Blanca</item>
+        <item>I Indígena</item>
+        <item>N Negra</item>
+        <item>C China</item>
+        <item>O Otra</item>
+    </string-array>
+    <string-array name="estadocivil">
+        <item>S Single</item>
+        <item>M Married</item>
+        <item>V Viudo</item>
+        <item>UL Unión Libre</item>
+        <item>SH Separado de hecho</item>
+    </string-array>
+    <string-array name="escolaridad">
+        <item>P Primario</item>
+        <item>S Secundario</item>
+        <item>N Universitario</item>
+        <item>C Tecnológico</item>
+        <item>A Analfabeta</item>
+        <item>N Ninguno</item>
+    </string-array>
+    <string-array name="violIntrafamiliar">
+        <item>N  Ninguna</item>
+        <item>AF Agresión Física</item>
+        <item>AE Agresión Emocional</item>
+        <item>AS Agresión Sexual</item>
+        <item>AB Abandono</item>
+    </string-array>
+    <string-array name="planificacion">
+        <item>DIU Dispositivo Intrauterino</item>
+        <item>GO Gestágeno Oral</item>
+        <item>PRE Preservativo Masc/Fem</item>
+        <item>QX Quirúrgico</item>
+        <item>IMP Implante</item>
+        <item>INY Inyectable</item>
+        <item>NAT Natural</item>
+        <item>OTR Otro</item>
+    </string-array>
+    <string-array name="resultPap">
+        <item>N Normal</item>
+        <item>L Leve</item>
+        <item>M Moderado</item>
+        <item>S Severo</item>
+    </string-array>
+    <string-array name="condSalud">
+        <item>B Buena</item>
+        <item>R Regular</item>
+        <item>M Mala</item>
+    </string-array>
+    <string-array name= "encabTablaVisitas">
+        <item>Cond. Salud</item>
+        <item>Fecha</item>
+        <item>Motivo</item>
+        <item>Acción realizada</item>
+        
+        
+        </string-array>
+
+</resources>

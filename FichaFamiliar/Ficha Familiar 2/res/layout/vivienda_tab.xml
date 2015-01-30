@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp" >
+
+    <LinearLayout
+        android:layout_width="1280dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="55dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTituloTab"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/titTabVivienda"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableTitles"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtCodViv"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/codViv"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtM2"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/M2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTenencia"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/codTenencia"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtEnerg"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/codEnerg"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtNumApos"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/numApos"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableEdit"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/editCodViv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:ems="5"
+            android:inputType="number"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editM2"
+            android:layout_marginRight="60dp"
+            android:ems="3"
+            android:hint="@string/m2Hint"
+            android:inputType="number"
+            android:lines="1"
+            android:maxEms="5"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColorHint="@color/red"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerTen"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerEnerg"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerNumApos"
+            android:layout_marginRight="60dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles2"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtNumDor"
+            android:layout_marginRight="60dp"
+            android:text="@string/numDor"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTipoCoc"
+            android:layout_marginRight="60dp"
+            android:text="@string/tipoCoc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtCondCoc"
+            android:layout_marginRight="60dp"
+            android:text="@string/condCoc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtEnergCoc"
+            android:layout_marginRight="60dp"
+            android:text="@string/energCoc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTipoBan"
+            android:layout_marginRight="60dp"
+            android:text="@string/tipoBan"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableEdit2"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <Spinner
+            android:id="@+id/spinnerNumDor"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoCoc"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCondCoc"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerEnergCoc"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoBan"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles3"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtCondBan"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/condBan"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTipoPiso"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/tipoPiso"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtCondPiso"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/condPiso"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtTipoPared"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/tipoPared"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtCondPared"
+            android:layout_marginRight="60dp"
+            android:text="@string/condPared"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableEdit3"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <Spinner
+            android:id="@+id/spinnerCondBan"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoPiso"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCondPiso"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoPared"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCondPared"
+            android:layout_marginRight="60dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles4"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtTipoTecho"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/tipoTec"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtCondTecho"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/condTec"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtVentilac"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/ventil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtIluminac"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/iluminac"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+        
+                <TextView
+            android:id="@+id/txtFtsAgua"
+            android:layout_marginRight="60dp"
+            android:text="@string/ftesAguas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableEdit4"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <Spinner
+            android:id="@+id/spinnerTipoTecho"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCondTecho"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerVentilacion"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerIluminacion"
+            android:layout_marginRight="60dp" />
+        
+                <Spinner
+            android:id="@+id/spinnerFtesAguas"
+            android:layout_marginRight="60dp" />
+                
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles5"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+                <TextView
+            android:id="@+id/txtCalAgua"
+            android:layout_marginRight="60dp"
+            android:text="@string/calAguas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtExcretas"
+            android:layout_marginRight="60dp"
+            android:text="@string/excretas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtBasura"
+            android:layout_marginRight="60dp"
+            android:text="@string/basura"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtAnimales"
+            android:layout_marginRight="60dp"
+            android:text="@string/animales"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtRiesgo"
+            android:layout_marginRight="60dp"
+            android:text="@string/riesgo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableEdit5"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+
+        <Spinner
+            android:id="@+id/spinnerCalAguas"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerExcretas"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerBasura"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerAnimales"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:id="@+id/spinnerRiesgo"
+            android:layout_marginRight="60dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles6"
+        android:layout_width="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1" >
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtObservaciones"
+            android:layout_width="220sp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="@string/observaciones"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editObservaciones"
+            android:layout_width="900sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/observaciones"
+            android:lines="1"
+            android:textColorHint="@color/red"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableButtons"
+        android:layout_width="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btnact"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/updateButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restablecer"
+            android:id="@+id/btnlimp"
+            android:layout_marginTop="10dp" />
+    </TableRow>
+
+</TableLayout>

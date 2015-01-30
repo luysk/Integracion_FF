@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ficha Familiar 2/Ficha Familiar 2.iml" filepath="$PROJECT_DIR$/Ficha Familiar 2/Ficha Familiar 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FichaFamiliar.iml" filepath="$PROJECT_DIR$/FichaFamiliar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtTituloHechosM"
+        android:layout_width="1280dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/titTabHechosM"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+</LinearLayout>
+
+
+<TableRow
+    android:id="@+id/tableTitles"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="40dp"
+    android:layout_weight="0" >
+
+    <TextView
+        android:id="@+id/txtCodPer"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="false"
+        android:text="@string/txtCodPersona"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtEspec"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="85dp"
+        android:clickable="false"
+        android:text="@string/txtEspec"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+    <!-- android:layout_column="10" -->
+
+
+    <TextView
+        android:id="@+id/txtSaludAct"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="85dp"
+        android:text="Estado Salud"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+    <!-- android:layout_column="14" -->
+
+
+    <!-- android:layout_column="16" -->
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableOptions"
+    android:layout_marginLeft="160dp"
+    android:layout_marginBottom="5dp">
+
+    <EditText
+        android:id="@+id/editCodPer"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="number|text" />
+
+    <Spinner
+        android:id="@+id/spinnerVisitaEspecialista"
+        android:layout_marginRight="85dp"/>
+    <!--android:layout_column="10"-->
+
+
+    <Spinner
+        android:id="@+id/spinnerSaludAct"
+        android:layout_marginRight="85dp"/>
+    <!-- android:layout_column="14"
+     condSalud
+     -->
+    <!--android:nextFocusLeft="@id/txtEspec"
+    android:nextFocusRight="@id/txtTipoViol"-->
+
+
+    <!-- android:layout_column="16" -->
+
+</TableRow>
+
+
+
+
+<TableRow
+    android:id="@+id/tableTitles2"
+    android:layout_marginLeft="150dp" >
+
+
+
+
+
+    <TextView
+        android:id="@+id/txtObservaciones"
+        android:layout_marginRight="85dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="false"
+        android:text="@string/observaciones"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+    <!--android:layout_column="10"-->
+
+    <TextView
+        android:id="@+id/txtTipoViol"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="85dp"
+        android:text="@string/txtTipoViol"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+
+
+</TableRow>
+
+
+<TableRow
+    android:id="@+id/tableOptions2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="150dp"
+    android:layout_marginBottom="10dp">
+
+
+    <EditText
+        android:id="@+id/editObservaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+
+        android:layout_marginRight="0dp" />
+    <!--android:layout_column="10" -->
+
+    <Spinner
+        android:id="@+id/spinnerTipoViol"
+        android:layout_marginRight="85dp"/>
+
+
+
+    <ImageButton
+        android:id="@+id/btnVacuna"
+
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_column="1"
+        android:background="@drawable/vacuna" />
+
+
+    <!--android:layout_width="70dp"
+    android:layout_height="75dp">-->
+
+
+</TableRow>
+
+<!--<include
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+layout="@layout/vacunas_tab"
+android:layout_column="10"
+android:id="@+id/"  /
+
+<Spinner
+android:id="@+id/spinnerTipoVac"
+android:enabled="false"
+android:layout_marginRight="100dp"/>>-->
+
+
+
+
+<TableRow
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent">
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="175dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="75dp"
+        android:text="Buscar"
+        android:id="@+id/searchButtonMasc"
+        android:layout_column="0"/>
+    <!-- -->
+
+
+    <Button
+        android:id="@+id/updateButtonMasc"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/updateButton"
+        android:layout_column="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpiar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/clearButtonMasc"
+        android:layout_column="2" />
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableButtons"
+    android:layout_width="0dp"
+    android:layout_marginTop="15dp"
+    android:layout_weight="0.1"
+    android:gravity="center_horizontal" >
+
+
+
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</TableRow>
+
+</TableLayout>

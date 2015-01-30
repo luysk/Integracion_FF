@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/txtTituloTab"
+            android:layout_width="1280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="@string/titTabUbicacion"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableTitles"
+        android:layout_marginLeft="100dp" >
+
+        <TextView
+            android:id="@+id/txtCodViv"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="50dp"
+            android:clickable="false"
+            android:text="@string/codViv"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtFechaVisita"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="50dp"
+            android:clickable="false"
+            android:text="@string/fechaVis"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtRegionSalud"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtRegion"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtAreaSalud"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/codAreaSalud"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableOptions"
+        android:layout_marginLeft="100dp" >
+
+        <EditText
+            android:id="@+id/editCodViv"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editFechaVis"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editRegionSalud"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editAreaSalud"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:inputType="text" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles1"
+        android:layout_marginLeft="100dp" >
+
+        <TextView
+            android:id="@+id/txtEBAIS"
+            android:text="@string/codEBAIS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtProvincia"
+            android:clickable="false"
+            android:text="@string/codProvincia"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtCanton"
+            android:clickable="false"
+            android:text="@string/codCanton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtDistrito"
+            android:text="@string/codDistrito"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableOptions1"
+        android:layout_marginLeft="100dp" >
+
+        <Spinner
+            android:id="@+id/spinnerEBAIS"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+        <EditText
+            android:id="@+id/editProv"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editCant"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/spinnerDist"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableTitles2"
+        android:layout_marginLeft="100dp" >
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_marginRight="60dp"
+            android:text="@string/codDireccion"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtLatitud"
+            android:text="@string/latitud"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtLongitud"
+            android:text="@string/longitud"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+        
+                <TextView
+            android:id="@+id/txtEfectividad"
+            android:text="@string/txtEfectividad"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableOptions2"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="100dp" >
+
+        <Spinner
+            android:id="@+id/spinnerBarr"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp" />
+
+        <EditText
+            android:id="@+id/editLat"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:ems="6"
+            android:gravity="center_vertical|left"
+            android:hint="@string/latitudHint"
+            android:inputType="numberDecimal"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/red"
+            android:textSize="18sp" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editLong"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="85dp"
+            android:ems="6"
+            android:gravity="center_vertical|left"
+            android:hint="@string/longitudHint"
+            android:inputType="numberDecimal"
+            android:scrollHorizontally="false"
+            android:textColorHint="@color/red"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/switchVisitaEfectiva"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="170dp"
+            android:textOff="@string/txtNo"
+            android:textOn="@string/txtSi" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableButtons"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/searchButton"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/searchButton" />
+
+        <Button
+            android:id="@+id/insertButton"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insertButton" />
+
+        <Button
+            android:id="@+id/updateButton"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/updateButton" />
+        
+        <Button
+	        style="@style/AppTheme"
+	        android:id="@+id/clearButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:text="@string/clearButton" />
+    </TableRow>
+
+</TableLayout>

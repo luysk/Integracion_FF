@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ucr.ff"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+    
+     <supports-screens android:resizeable="true" />
+    
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> 
+        
+    <uses-feature android:name="android.hardware.camera" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_CALENDAR"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name=".permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAl_STORAGE"/>
+
+    <!-- Permisos para poder utilizar el GPS !-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- Permisos para los mapas !-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name=".MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+
+	
+    <application
+        
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyChdJcwaB0IhPNbPdQR3DpOXcyQCesnyog" />
+        
+        <activity
+            android:name=".FichaFamiliar"
+            android:label="@string/title_activity_tab" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <service android:name="ucr.tools.MyGpsService" >
+        </service>
+        
+        <activity
+            android:name="ucr.send.FileChooser"
+            android:label="Choose File" 
+             android:theme="@android:style/Theme.Holo"> 
+                <action android:name="ucr.send.FileChooser" />
+
+
+                <category android:name="android.intent.category.DEFAULT" /> 
+        </activity>
+        
+        
+    </application>
+
+
+
+</manifest>
