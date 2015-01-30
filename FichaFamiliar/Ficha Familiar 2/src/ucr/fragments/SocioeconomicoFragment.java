@@ -258,7 +258,7 @@ public class SocioeconomicoFragment extends Fragment {
 			public void onClick(View v) {
                 values = new ContentValues();
                 values.put("codViv", codViv);
-                values.put("CodCondSocioeco", condSoc[spinnerCondSoc.getSelectedItemPosition()]);
+                values.put("CodCondSocioeco", condSoc[0]);
                 values.put("Refrigeracion", select[spinnerRefrig.getSelectedItemPosition()]);
                 values.put("Radio", select[spinnerRadio.getSelectedItemPosition()]);
                 values.put("Telefono", select[spinnerTelefono.getSelectedItemPosition()]);
